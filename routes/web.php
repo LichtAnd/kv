@@ -15,14 +15,22 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages/front');
+})->name('front');
+
+Route::get('/katja-veit', function () {
+    return view('pages/ueber');
 });
 
-Route::get('/story', function () {
-    return view('pages/story');
+Route::get('/yoga', function () {
+    return view('pages/yoga');
 });
 
-Route::get('/styleguide', function () {
-    return view('pages/styleguide');
+Route::get('/familiencoaching', function () {
+    return view('pages/familiencoaching');
+});
+
+Route::get('/kontakt', function () {
+    return view('pages/kontakt');
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
