@@ -54,6 +54,12 @@
                 </span>
             </a>
 
+            <a href="/katja-veit" aria-label="Zur Seite über Katja Veit">
+                <span class="mx-2 text-xl font-medium tracking-tight link link--gray font-display lg:mx-3 ">
+                    Über mich
+                </span>
+            </a>
+
             <a href="/kontakt" aria-label="Zur Seite Kontakt">
                 <span class="mx-2 text-xl font-medium tracking-tight link link--gray font-display lg:mx-3 ">
                     Kontakt
@@ -63,12 +69,6 @@
             <a href="#" aria-label="Zur Buchung auf kikudoo.com">
                 <span class="mx-2 text-xl font-medium tracking-tight link link--gray font-display lg:mx-3 ">
                     Buchung
-                </span>
-            </a>
-
-            <a href="/katja-veit" aria-label="Zur Seite über Katja Veit">
-                <span class="mx-2 text-xl font-medium tracking-tight link link--gray font-display lg:mx-3 ">
-                    Über mich
                 </span>
             </a>
         </div>
@@ -111,6 +111,14 @@
                     </li>
 
                     <li class="inline-flex items-center justify-center col-span-12">
+                        <a href="/katja-veit" aria-label="Zur Seite über Katja Veit">
+                            <span class="mx-3 mt-3 mb-6 text-4xl font-bold tracking-tight link link--gray link--lg ">
+                                Über mich
+                            </span>
+                        </a>
+                    </li>  
+
+                    <li class="inline-flex items-center justify-center col-span-12">
                         <a href="/kontakt" aria-label="Zur Seite Kontakt">
                             <span class="mx-3 mt-3 mb-6 text-4xl font-bold tracking-tight link link--gray link--lg ">
                                 Kontakt
@@ -124,15 +132,7 @@
                                 Buchung
                             </span>
                         </a>
-                    </li>
-
-                    <li class="inline-flex items-center justify-center col-span-12">
-                        <a href="/katja-veit" aria-label="Zur Seite über Katja Veit">
-                            <span class="mx-3 mt-3 mb-6 text-4xl font-bold tracking-tight link link--gray link--lg ">
-                                Über mich
-                            </span>
-                        </a>
-                    </li>                            
+                    </li>                          
                 </ul>
             </div>
             
@@ -142,7 +142,7 @@
                         <img src="https://laravelnews.imgix.net/icons/social_media/facebook.svg?ixlib=php-3.3.1" class="w-8 h-8 text-white fill-current" alt="Facebook">
                     </a>
                     
-                    <a href="https://instagram.com/laravelnews" target="_blank" rel="noreferrer noopener" class="transition-transform duration-100 ease-linear transform hover:rotate-12" aria-label="Instagram link">
+                    <a href="https://www.instagram.com/katja_veit_/" target="_blank" rel="noreferrer noopener" class="transition-transform duration-100 ease-linear transform hover:rotate-12" aria-label="Instagram link">
                         <svg class="w-8 h-8" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
                             <radialGradient cx="56.35" cy="19.218" gradientTransform="matrix(.9986 -.05234 .04449 .8488 -36.974 443.801)" gradientUnits="userSpaceOnUse" id="a" r="711.335">
                                 <stop offset="0" style="stop-color:#fed576"/>

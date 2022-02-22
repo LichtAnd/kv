@@ -1,21 +1,25 @@
 <x-guest-layout>
     <main>
         <!-- Familiencoaching -->
-        <section class="relative w-full h-[calc(100vh-9rem)]">
-            <div class="absolute top-0 left-0 z-20 w-full h-full opacity-40 bg-primary-800"></div>
+        <header class="grid items-center w-full h-[calc(100vh-9rem)]">
+            <div class="z-20 w-full h-full col-start-1 row-start-1 opacity-40 bg-primary-800"></div>
             
-            <div class="absolute top-0 left-0 z-30 flex flex-col items-center justify-center w-full h-full">
-                <h1 class="font-bold text-white text-9xl">Coaching</h1>
+            <div class="z-30 flex flex-col items-center justify-center w-full h-full col-start-1 row-start-1">
+                <h1 class="font-bold text-9xl">
+                    <span class="text-white">Familiencoaching</span>
+                </h1>
+                
+                <span class="text-6xl text-gray-200">Resilienz, Kommunikation, Wut & Achtsamkeit</span>
             </div>
 
-            <img class="absolute top-0 left-0 object-cover w-full h-full" src="/img/yoga/coaching.jpg" alt="">
-        </section>
+            <img class="col-start-1 row-start-1 object-cover w-full h-[calc(100vh-9rem)]" src="/img/yoga/coaching.jpg" alt="">
+        </header>
         
         <section class="bg-primary-100">
             <x-container spacing="lg">
                 <h2 class="text-4xl leading-none">
                     <span class="block uppercase text-accent-600">Yoga Kurse</span>
-                    <span class="block uppercase text-accent-400">Pre- und Postnatal, für Kinder und für Dich</span>
+                    <span class="block uppercase text-accent-400">Pre- und Postnatal, für Dich und Deine Kinder</span>
                 </h2>
                 <div class="mt-[clamp(2rem,6vw,6rem)] grid items-center grid-cols-12">
                     <div class="order-2 col-span-4 col-start-3 row-start-1 shadow">
