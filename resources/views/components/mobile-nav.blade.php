@@ -1,6 +1,6 @@
-<nav class="relative z-30 mx-auto py-[clamp(1rem,5vw,3rem)] w-[clamp(16rem,90vw,100rem)]">
+<nav class="relative z-40 mx-auto py-[clamp(1rem,5vw,3rem)] w-[clamp(16rem,90vw,100rem)]">
     {{-- NavBar mobile--}}
-    <div class="z-40 flex items-center justify-between md:hidden">
+    <div class="z-50 flex items-center justify-between md:hidden">
         <a class="flex items-center" href="/" aria-label="Zur Startseite">
             <svg class="w-12 h-12 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
                 <g fill-rule="evenodd">
