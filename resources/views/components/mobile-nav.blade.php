@@ -1,4 +1,4 @@
-<nav class="relative z-40 mx-auto py-[clamp(1rem,5vw,3rem)] w-[clamp(16rem,90vw,100rem)]">
+<nav class="relative z-40 mx-auto py-[clamp(1rem,5vw,3rem)] w-[clamp(16rem,90vw,96rem)]">
     {{-- NavBar mobile--}}
     <div class="z-50 flex items-center justify-between md:hidden">
         <a class="flex items-center" href="/" aria-label="Zur Startseite">

@@ -33,6 +33,10 @@ Route::get('/kontakt', function () {
     return view('pages/kontakt');
 });
 
+Route::get('/styleguide', function () {
+    return view('pages/styleguide');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

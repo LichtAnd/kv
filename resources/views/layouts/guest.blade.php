@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="bg-secondary-800">
-                    <x-container spacing="sm">
+                    <x-container spacing="md">
                         <div class="grid w-full lg:grid-cols-3">
                             <div>
                                 <h3 class="text-xl text-secondary-300"># Kontakt</h3>
