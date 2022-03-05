@@ -28,8 +28,8 @@
                             
                             <p class="mt-[1em] text-lg">Ich zeige Dir, wie Du zu Deiner inneren Ruhe findest und gebe Dir Werkzeuge an die Hand, die Dich im Umgang mit Deinem Kind unterstützen.</p>
                     
-                            <div class="mt-[3em] flex flex-col justify-center gap-4 lg:flex-row">
-                                <x-button href="{{ route('front') }}">
+                            <div class="mt-[3em] flex flex-col gap-4 lg:flex-row">
+                                <x-button href="{{ route('booking') }}">
                                     Kurs buchen
                                 </x-button>
                                 
@@ -43,7 +43,7 @@
             </x-container>
         </section>
 
-        <section >
+        <section>
             <div class="bg-primary-50">
                 <x-container spacing="xl">
                     <h2 class="text-4xl leading-none text-center">
@@ -51,21 +51,21 @@
                         <span class="block uppercase text-accent-400">für Dich und Deinen Nachwuchs</span>
                     </h2>
 
-                    <div class="mt-[clamp(2rem,6vw,6rem)] grid items-center grid-cols-12">
-                        <div class="order-2 col-span-4 col-start-3 row-start-1 shadow">
-                            <div class="p-[clamp(1rem,5vw,4rem)] bg-white rounded-md space-y-4">
+                    <div class="mt-[clamp(2rem,6vw,6rem)] grid items-center xl:grid-cols-12">
+                        <div class="order-2 shadow xl:col-span-4 xl:col-start-3 xl:row-start-1">
+                            <div class="p-[max(10%,1rem)] bg-white rounded-md space-y-4">
                                 <div class="prose prose-lg max-w-prose">
                                     <h3>Yoga Kurse</h3>
-                                    <p>Kurzer Teaser: Wie Yoga Deiner Zielgruppe hilft ...  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis eligendi tempora consequuntur molestiae. Rem aspernatur ea dolor labore vel.</p>
+                                    <p>Kurzer Teaser: Warum Yoga für Deine Zielgruppe zur Erreicheung Deines Slogans "Mehr Leichtigkeit im Familienalltag" so wichtig ist.</p>
                                 </div>
                                 
                                 <div>
-                                    <x-button size="small">Mehr erfahren</x-button>
+                                    <x-button size="small" href="{{ route('yoga') }}">Mehr erfahren</x-button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="order-1 col-span-5 col-start-6 row-start-1">
+                        <div class="order-1 xl:col-span-5 xl:col-start-6 xl:row-start-1">
                             <div class="overflow-hidden rounded-md aspect-w-1 aspect-h-1 xl:aspect-none">
                             <img class="object-cover" src="img/p-b-vky-0132-2048x1365.jpg" alt="">
                         </div>
@@ -82,21 +82,21 @@
                         <span class="block uppercase text-accent-400">für ein besseres Miteinander</span>
                     </h2>
 
-                    <div class="mt-[clamp(2rem,6vw,6rem)] grid items-center grid-cols-12">
-                        <div class="order-2 col-span-4 col-start-7 row-start-1 shadow">
-                            <div class="p-[clamp(1rem,5vw,4rem)] bg-white rounded-md space-y-4">
+                    <div class="mt-[clamp(2rem,6vw,6rem)] grid items-center xl:grid-cols-12">
+                        <div class="order-2 shadow xl:col-span-4 xl:col-start-7 xl:row-start-1">
+                            <div class="p-[max(10%,1rem)] bg-white rounded-md space-y-4">
                                 <div class="prose prose-lg max-w-prose">
                                     <h3>Coachings</h3>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis eligendi tempora consequuntur molestiae. Rem aspernatur ea dolor labore vel.</p>
+                                    <p>Kurzer Teaser: Warum und welche Art von Coaching für Deine Zielgruppe zur Erreicheung Deines Slogans "Mehr Leichtigkeit im Familienalltag" so wichtig ist.</p>
                                 </div>
                                 
                                 <div>
-                                    <x-button size="small">Mehr erfahren</x-button>
+                                    <x-button size="small" href="{{ route('coaching') }}">Mehr erfahren</x-button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="order-1 col-span-5 col-start-3 row-start-1">
+                        <div class="order-1 xl:col-span-5 xl:col-start-3 xl:row-start-1">
                             <div class="overflow-hidden rounded-md aspect-w-1 aspect-h-1 xl:aspect-none">
                             <img class="object-cover" src="img/p-b-vky-0132-2048x1365.jpg" alt="">
                         </div>

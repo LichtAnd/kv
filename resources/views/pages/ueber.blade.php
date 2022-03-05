@@ -8,13 +8,13 @@
                         <div class="xl:col-span-5">
                             <div class="relative m-2 xl:m-4">
                                 <div class="absolute w-full h-full translate-x-2 translate-y-2 rounded-md bg-primary-200 xl:translate-x-4 xl:translate-y-4"></div>
-                                <div class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-w-4 xl:aspect-h-3">
+                                <figure class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-w-4 xl:aspect-h-3">
                                     <img
                                         class="object-cover"
                                         src="/img/katja.jpg"
                                         alt="Profilbild: Katja Veit"
                                     >
-                                </div>
+                                </figure>
                             </div>
                         </div>
                             
@@ -41,13 +41,13 @@
                         <div class="xl:order-2 xl:col-span-5">
                             <div class="relative m-2 xl:m-4">
                                 <div class="absolute w-full h-full translate-x-2 translate-y-2 rounded-md bg-primary-200 xl:translate-x-4 xl:translate-y-4"></div>
-                                <div class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-none">
+                                <figure class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-none">
                                     <img
                                         class="object-cover"
                                         src="/img/IMG_1863.JPG"
                                         alt="Profilbild: Katja Veit"
                                     >
-                                </div>
+                                </figure>
                             </div>
                         </div>
                         <div class="xl:order-1 xl:col-span-7">
@@ -70,13 +70,13 @@
                         <div class="xl:col-span-5">
                             <div class="relative m-2 xl:m-4">
                                 <div class="absolute w-full h-full translate-x-2 translate-y-2 rounded-md bg-primary-200 xl:translate-x-4 xl:translate-y-4"></div>
-                                <div class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-w-4 xl:aspect-h-3">
+                                <figure class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-w-4 xl:aspect-h-3">
                                     <img
                                         class="object-cover"
                                         src="/img/yoga-rueckbildung-katja-veit.jpeg"
                                         alt="Profilbild: Katja Veit"
                                     >
-                                </div>
+                                </figure>
                             </div>
                         </div>
                         <div class="xl:col-span-7 justify-self-end">
@@ -99,13 +99,13 @@
                         <div class="xl:col-span-5">
                             <div class="relative m-2 xl:m-4">
                                 <div class="absolute w-full h-full translate-x-2 translate-y-2 rounded-md bg-primary-200 xl:translate-x-4 xl:translate-y-4"></div>
-                                <div class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-none">
+                                <figure class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-none">
                                     <img
                                         class="object-cover"
                                         src="/img/IMG_E6678.JPG"
                                         alt="Profilbild: Katja Veit"
                                     >
-                                </div>
+                                </figure>
                             </div>
                         </div>
                         <div class="xl:col-span-7">
@@ -127,13 +127,13 @@
                         <div class="xl:order-2 xl:col-span-5">
                             <div class="relative m-2 xl:m-4">
                                 <div class="absolute w-full h-full translate-x-2 translate-y-2 rounded-md bg-primary-200 xl:translate-x-4 xl:translate-y-4"></div>
-                                <div class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-w-4 xl:aspect-h-3">
+                                <figure class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-w-4 xl:aspect-h-3">
                                     <img
                                         class="object-cover"
                                         src="/img/TFTA1102.JPG"
                                         alt="Profilbild: Katja Veit"
                                     >
-                                </div>
+                                </figure>
                             </div>
                         </div>
                         <div class="xl:order-1 xl:col-span-7">
@@ -169,13 +169,13 @@
                         <div class="xl:col-span-5">
                             <div class="relative m-2 xl:m-4">
                                 <div class="absolute w-full h-full translate-x-2 translate-y-2 rounded-md bg-primary-200 xl:translate-x-4 xl:translate-y-4"></div>
-                                <div class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-none">
+                                <figure class="overflow-hidden -translate-x-2 -translate-y-2 rounded-md aspect-w-1 aspect-h-1 xl:-translate-x-4 xl:-translate-y-4 xl:aspect-none">
                                     <img
                                         class="object-cover"
                                         src="/img/herz-aus-holz.JPG"
                                         alt="Herz aus Holz"
                                     >
-                                </div>
+                                </figure>
                             </div>
                         </div>
                         <div class="xl:col-span-7">

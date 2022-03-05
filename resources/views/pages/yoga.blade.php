@@ -1,20 +1,15 @@
 <x-guest-layout>
     <main>
         <!-- Yoga -->
-        <header class="grid items-center">
-            <div class="z-20 w-full h-full col-start-1 row-start-1 opacity-40 bg-primary-800"></div>
-            
-            <div class="z-30 flex flex-col items-center justify-center col-start-1 row-start-1 text-center">
-                <h1 class="font-bold">
-                    <span class="block text-white text-8xl text-opacity-90">Yoga</span>
-                    <span class="block text-5xl text-white text-opacity-80">Prenatal, Postnatal & für Kinder</span>
-                </h1>
-            </div>
-
-            <img class="col-start-1 row-start-1 object-cover w-full min-h-[50vh] lg:h-[calc(100vh-9rem)]" src="/img/yoga-kurs-in-der-gruppe.JPG" alt="">
+        <header>
+            <x-hero>
+                <x-slot name="title">Yoga</x-slot>
+                <x-slot name="subtitle">Prenatal, Postnatal & für Kinder</x-slot>
+                <x-slot name="img">/img/yoga-kurs-in-der-gruppe.JPG</x-slot>
+            </x-hero>
         </header>
 
-        <section class="bg-primary-50">
+        <div class="bg-primary-50">
             <x-container spacing="lg" class="grid gap-4 lg:grid-cols-3 lg:gap-8 xl:gap-12 2xl:gap-16">
             
                 <!-- Yoga Prenatal -->
@@ -131,6 +126,6 @@
                     </div>
                 </section>
             </x-container>
-        </section>
+        </div>
     </main>
 </x-guest-layout>

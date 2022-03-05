@@ -3,7 +3,7 @@
     </h2>
 
     <form 
-        class="mt-4"
+        class="flex flex-col gap-4 mt-4 lg:flex-row"
         action="#"
     >
         <input 
