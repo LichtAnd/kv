@@ -1,7 +1,7 @@
 <div class="grid items-center">
     <div class="z-20 w-full h-full col-start-1 row-start-1 opacity-40 bg-primary-800"></div>
     
-    <div class="z-30 flex flex-col items-center justify-center col-start-1 row-start-1 text-center">
+    <div class="z-30 flex flex-col items-center justify-center col-start-1 row-start-1 p-4 text-center">
         <h1>
             <span class="block font-bold text-white text-8xl text-opacity-90">{{ $title ?? '' }}</span>
             <span class="block text-5xl font-bold text-white text-opacity-80">{{ $subtitle ?? '' }}</span>
